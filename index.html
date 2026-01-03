@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unekwuojo Home of Mercy & Emancipation</title>
+        <link rel="icon" href="images/favicon.jpeg" type="image/jpg">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+                    <img src="images/logo.jpeg" alt="Logo">
+                    <span class="brand-text">Unekwuojo Home of Mercy & Emancipation</span>
+                </a>
+
+                <!-- Toggler -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNav"
+                    aria-controls="mainNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Nav links -->
+                <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#get-involved">Get Involved</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news">News & Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section with Carousel -->
+        <section id="home" class="hero-section">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <div class="hero-slide slide-1">
+                            <div class="container">
+                                <h1>Every child deserve love</h1>
+                                <p>Providing a secure, nurturing environment for orphans and children in need</p>
+                                <a href="#get-involved" class="btn btn-custom btn-lg">
+                                    <i class="fas fa-heart heart-icon"></i> Support Our Children
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <div class="hero-slide slide-2">
+                            <div class="container">
+                                <h1>Education Opens Doors</h1>
+                                <p>Empowering children through school enrollment and providing uniforms, books and academic mentoring.</p>
+                                <a href="#programs" class="btn btn-custom btn-lg">
+                                    <i class="fas fa-graduation-cap"></i> Our Programs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <div class="hero-slide slide-1">
+                            <div class="container">
+                                <h1>Every widow deserves dignity</h1>
+                                <p>Supporting widows through finances, counselling, skills training and empowerment initiatives</p>
+                                <a href="#programs" class="btn btn-custom btn-lg">
+                                    <i class="fas fa-heart heart-icon"></i> Our Programs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <div class="hero-slide slide-3">
+                            <div class="container">
+                                <h1>Together We Create Brighter Futures</h1>
+                                <p>Join us in transforming lives through compassion and care</p>
+                                <a href="#get-involved" class="btn btn-custom btn-lg">
+                                    <i class="fas fa-hands-helping"></i> Get Involved
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section-padding about-section">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="lead mt-4">Unekwuojo Home of Mercy and Emancipation Ministry was founded out of deep compassion and a divine mandate to respond to the growing crisis of abandoned children and widows affected by insurgency, terrorism, and religious persecution. What began as a humble initiative has grown into a structured ministry impacting hundreds of lives through shelter, education, and empowerment.</p>
+                </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 mb-4">
+                        <img src="https://images.unsplash.com/photo-1539893867126-7ce0b48971ca?q=80&w=1097" alt="Children playing" class="about-img">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="mb-4" style="color: var(--primary-color);">Our Vision</h3>
+                        <p class="lead">A compassionate society where no vulnerable soul is left behind</p>
+                        <h3 class="mb-4" style="color: var(--primary-color);">Our Mission</h3>
+                        <p class="lead">Providing holistic care and restoration through love, faith, and practical support</p>
+                        <div class="mt-4">
+                            <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> <strong>Orphan Care & Residential Home</strong><br>
+                            <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> <strong>Widow Support Programme</strong><br>
+                            <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> <strong>Relief Efforts for Victims of Insurgency</strong><br>
+                            <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> <strong>Education Sponsorship</strong><br>
+                            <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> <strong>Trauma Healing & counselling</strong><br>
+                            <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> <strong>Vocational Training & Empowerment</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-box">
+                            <div class="stat-number">150+</div>
+                            <div class="stat-label">Children in Care</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-box">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Widows Helped</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-box">
+                            <div class="stat-number">20</div>
+                            <div class="stat-label">Years of Service</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs" class="section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Our Programs</h2>
+                    <p class="lead mt-4">Our work is grounded in Christian doctrine, inspired by Christ's command to care for the least in society. We uphold biblical values of mercy, justice, love, and selfless service.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card program-card">
+                            <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=765" class="card-img-top" alt="Counseling">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-book"></i> Orphan Care & Residential Home
+                                </h5>
+                                <p class="card-text">We provide a secure, nurturing environment where orphaned and abandoned children receive shelter, food, healthcare, education, and spiritual guidance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card program-card">
+                            <img src="https://images.unsplash.com/photo-1588912422476-f2afaed1ec0c?q=80&w=1169" class="card-img-top" alt="Widow">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-heartbeat"></i> Widow Support Programme
+                                </h5>
+                                <p class="card-text">Support for widows through financial assistance, counselling, skills training, and empowerment initiatives.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card program-card">
+                            <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=400" class="card-img-top" alt="Relief">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-futbol"></i> Relief for Victims of Insurgency
+                                </h5>
+                                <p class="card-text">Emergency intervention, relief materials, and rehabilitation for families affected by violent conflicts.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card program-card">
+                            <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400" class="card-img-top" alt="Education">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-comments"></i> Education Sponsorship
+                                </h5>
+                                <p class="card-text">School enrollment, uniforms, books, and academic mentoring for vulnerable children.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card program-card">
+                            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400" class="card-img-top" alt="Skills">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-tools"></i> Vocational Training & Empowerment
+                                </h5>
+                                <p class="card-text">Skill acquisition programmes including tailoring, farming, ICT, and small business management.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card program-card">
+                            <img src="https://plus.unsplash.com/premium_photo-1663045961531-68bf02be1391?q=80&w=1170" class="card-img-top" alt="Counselling">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-home"></i> Trauma Healing & Counselling
+                                </h5>
+                                <p class="card-text">Professional and spiritual support for emotional restoration and reintegration.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get Involved Section -->
+        <section id="get-involved" class="section-padding about-section">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Get Involved</h2>
+                    <p class="lead mt-4">Your support can change a life forever</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="involvement-card">
+                            <i class="fas fa-hand-holding-heart program-icon"></i>
+                            <h4>Sponsor a Child</h4>
+                            <p>Provide regular support for a child's education, healthcare, and daily needs.</p>
+                            <a href="#contact" class="btn btn-custom mt-3">
+                                <i class="fas fa-heart"></i> Sponsor Now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="involvement-card">
+                            <i class="fas fa-gift program-icon"></i>
+                            <h4>Donate</h4>
+                            <p>Donations can be sent to <strong>Bank: XXX Bank | Account Number: 0123456789 | Account Name: Unekwuojo Home of Mercy & Emancipation</strong>.</p>
+                            <a href="#contact" class="btn btn-custom mt-3">
+                                <i class="fas fa-donate"></i> Contact Us
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="involvement-card">
+                            <i class="fas fa-users program-icon"></i>
+                            <h4>Volunteer</h4>
+                            <p>Share your time, skills, and love with our children. From teaching to mentoring, every contribution makes a difference.</p>
+                            <a href="#contact" class="btn btn-custom mt-3">
+                                <i class="fas fa-hands-helping"></i> Join Us
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="involvement-card">
+                            <i class="fas fa-baby program-icon"></i>
+                            <h4>Adopt</h4>
+                            <p>Give a child a permanent loving home through adoption.</p>
+                            <a href="#contact" class="btn btn-custom mt-3">
+                                <i class="fas fa-heart"></i> Learn More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="involvement-card">
+                            <i class="fas fa-shopping-bag program-icon"></i>
+                            <h4>Donate Goods</h4>
+                            <p>Contribute food, clothes, books, toys, school supplies, and other essentials that bring joy and comfort to the needy.</p>
+                            <a href="#contact" class="btn btn-custom mt-3">
+                                <i class="fas fa-box"></i> Reach out to us
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="involvement-card">
+                            <i class="fas fa-building program-icon"></i>
+                            <h4>Corporate Partnership</h4>
+                            <p>Partner with us through CSR initiatives, and long-term collaborations.</p>
+                            <a href="#contact" class="btn btn-custom mt-3">
+                                <i class="fas fa-handshake"></i> Partner
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News & Events Section -->
+        <section id="news" class="section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">News & Events</h2>
+                    <p class="lead mt-4">Stay connected with our latest stories and upcoming activities</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card news-card">
+                            <div class="card-body">
+                                <span class="badge badge-event mb-2">Success Story</span>
+                                <p class="news-date"><i class="far fa-calendar-alt"></i> May 27th, 2024</p>
+                                <h5 class="card-title">Inauguration of the Board of Trustees</h5>
+                                <p class="card-text">The Board of Trustees was Inaugurated along with the maiden outreach to orphans at CEFN English Church, Anyigba, Kogi State.</p>
+                                <a href="https://web.facebook.com/philip.utaji/posts/pfbid02J7QU9rNJuoheK2hZeFPDE5QJYJhLbJAQX8MJNu96XPWZhC8fioaaZbUwFWTEy7H7l?rdid=RKa5Ba4gxcymJhcN#" target="_blank" class="btn btn-sm btn-custom">Watch Video</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card news-card">
+                            <div class="card-body">
+                                <span class="badge badge-event mb-2">Upcoming Event</span>
+                                <p class="news-date"><i class="far fa-calendar-alt"></i> To Be Announced</p>
+                                <h5 class="card-title">Upcoming Event</h5>
+                                <p class="card-text">No upcoming event right now,</p>
+                                <a href="#" class="btn btn-sm btn-custom">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card news-card">
+                            <div class="card-body">
+                                <span class="badge badge-event mb-2">Upcoming Event</span>
+                                <p class="news-date"><i class="far fa-calendar-alt"></i> To Be Announced</p>
+                                <h5 class="card-title">Upcoming Event</h5>
+                                <p class="card-text">No upcoming event right now.</p>
+                                <a href="#" class="btn btn-sm btn-custom">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding contact-section">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="lead mt-4">We'd love to hear from you. Reach out to contribute or learn more about our work!</p>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-4 mb-4">
+                        <div class="contact-box text-center">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h5>Visit Us</h5>
+                            <p>Anyigba<br>Kogi State, NG</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="contact-box text-center">
+                            <i class="fas fa-phone-alt"></i>
+                            <h5>Call Us</h5>
+                            <p>+234 8065238288<br>+234 XXX XXX XXXX</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="contact-box text-center">
+                            <i class="fas fa-envelope"></i>
+                            <h5>Email Us</h5>
+                            <p>info@uhome.org<br>admin@uhome.org</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-form-box">
+                            <h3 class="text-center mb-2">Send Us a Message</h3>
+                            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="b0eb708f-b10a-4243-9c71-270ad8fe8d19">
+                                <input type="hidden" name="redirect" value="false">
+                                <div class="row">
+                                    <div class="col-md-6 mb-1">
+                                        <label for="name" class="form-label">Full Name *</label>
+                                        <input type="text" class="form-control contact-input" id="name" name="name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-1">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <input type="email" class="form-control contact-input" id="email" name="email" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-1">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="tel" class="form-control contact-input" id="phone" name="phone">
+                                    </div>
+                                    <div class="col-md-6 mb-1">
+                                        <label for="subject" class="form-label">Subject *</label>
+                                        <input type="text" class="form-control contact-input" id="subject" name="subject" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control contact-input" id="message" name="message" rows="3" required></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-custom btn-lg" id="submitBtn">
+                                        <i class="fas fa-paper-plane"></i> Send Message
+                                    </button>
+                                </div>
+                            </form>
+                            <div id="formMessage" class="mt-3 text-center" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const navLinks = document.querySelectorAll('.custom-navbar .nav-link');
+                const navbarCollapse = document.getElementById('mainNav');
+
+                navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (window.innerWidth < 992 && navbarCollapse.classList.contains('show')) {
+                    const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse)
+                        || new bootstrap.Collapse(navbarCollapse);
+                    bsCollapse.hide();
+                    }
+                });
+                });
+            });
+        </script>
+    </body>
+</html>
