@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,9 +57,9 @@
     <div class="container">
 
       <!-- Optional filter buttons (future-ready) -->
-      <div class="text-center mb-5">
-        <button class="btn btn-custom btn-sm me-2">Pictures</button>
-        <button class="btn btn-custom btn-sm me-2">Videos</button>
+      <div class="text-center mb-5 gallery-filters">
+        <button class="btn btn-custom btn-sm me-2" data-filter="picture">Pictures</button>
+        <button class="btn btn-custom btn-sm me-2" data-filter="video">Videos</button>
         <!-- <button class="btn btn-outline-dark btn-sm me-2">Pictures</button>
         <button class="btn btn-outline-dark btn-sm me-2">Videos</button>
         <button class="btn btn-outline-dark btn-sm">Events</button> -->
@@ -67,56 +68,126 @@
       <div class="row g-4 gallery-grid">
 
         <!-- Gallery Item -->
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-card">
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="picture">
+          <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryLightbox"
+            data-img="images/2025-holiday-camp/all-2025.jpeg">
             <img src="images/2025-holiday-camp/all-2025.jpeg" alt="Camp Images">
-            <div class="gallery-overlay">
+            <div class="gallery-caption">
               <h5>Children Holiday Camp | Sept, 2025</h5>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800" alt="Children Care">
-            <div class="gallery-overlay">
-              <h5>Children in Care</h5>
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="picture">
+          <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryLightbox"
+            data-img="images/2025-holiday-camp/nixon.jpeg">
+            <img src="images/2025-holiday-camp/nixon.jpeg" alt="Dr Nixon">
+            <div class="gallery-caption">
+              <h5>Dr Mark Nixon | Children Holiday Camp | Sept, 2025</h5>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1539893867126-7ce0b48971ca?w=800" alt="Education Support">
-            <div class="gallery-overlay">
-              <h5>Education Support</h5>
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="picture">
+          <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryLightbox"
+            data-img="images/2025-holiday-camp/children-playing-1.jpeg">
+            <img src="images/2025-holiday-camp/children-playing-1.jpeg" alt="Holiday Camp">
+            <div class="gallery-caption">
+              <h5>Children Holiday Camp | Sept, 2025</h5>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800" alt="Holiday Camp">
-            <div class="gallery-overlay">
-              <h5>Holiday Camp</h5>
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="picture">
+          <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryLightbox"
+            data-img="images/2025-holiday-camp/children-playing-2.jpeg">
+            <img src="images/2025-holiday-camp/children-playing-2.jpeg" alt="Holiday Camp">
+            <div class="gallery-caption">
+              <h5>Children Holiday Camp | Sept, 2025</h5>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1490506080785-f64dae288188?w=800" alt="Relief Efforts">
-            <div class="gallery-overlay">
-              <h5>Relief Efforts</h5>
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="picture">
+          <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryLightbox"
+            data-img="images/2025-holiday-camp/children-sitting.jpeg">
+            <img src="images/2025-holiday-camp/children-sitting.jpeg" alt="Holiday Camp">
+            <div class="gallery-caption">
+              <h5>Children Holiday Camp | Sept, 2025</h5>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="picture">
+          <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryLightbox"
+            data-img="images/2025-holiday-camp/teaching-2.jpeg">
+            <img src="images/2025-holiday-camp/teaching-2.jpeg" alt="Holiday Camp">
+            <div class="gallery-caption">
+              <h5>Children Holiday Camp | Sept, 2025</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="picture">
+          <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryLightbox"
+            data-img="images/2025-holiday-camp/teaching-1.jpeg">
+            <img src="images/2025-holiday-camp/teaching-1.jpeg" alt="Holiday Camp">
+            <div class="gallery-caption">
+              <h5>Children Holiday Camp | Sept, 2025</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="picture">
+          <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryLightbox"
+            data-img="images/2025-holiday-camp/team">
+            <img src="images/2025-holiday-camp/team.jpeg" alt="Holiday Camp">
+            <div class="gallery-caption">
+              <h5>Children Holiday Camp | Sept, 2025</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="picture">
+          <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryLightbox"
+            data-img="images/2025-holiday-camp/team-2.jpeg">
+            <img src="images/2025-holiday-camp/team-2.jpeg" alt="Holiday Camp">
+            <div class="gallery-caption">
+              <h5>Children Holiday Camp | Sept, 2025</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Videos -->
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="video">
           <div class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1473594659356-a404044aa2c2?w=800" alt="Widow Support">
-            <div class="gallery-overlay">
-              <h5>Widow Support</h5>
+            <video controls preload="none" poster="images/logo.jpeg">
+              <source src="videos/vid-1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <div class="gallery-caption">
+              <h5 class="text-center truncate-text fs-sm"
+                title="Widows Day at CEFN English Church Anyigba with the children of Unekwuojo HOME Ministry rendering a special song ministration and Rev Philip Unekwuojo Utaji preaching">
+                Widows Day at CEFN English Church Anyigba with the children of Unekwuojo HOME Ministry rendering a
+                special song ministration and Rev Philip Unekwuojo Utaji preaching</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item" data-category="video">
+          <div class="gallery-card">
+            <video controls preload="none" poster="images/logo.jpeg">
+              <source src="videos/vid-2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <div class="gallery-caption">
+              <h5 class="text-center truncate-text"
+                title="Formal inauguration of the Unekwuojo Home of Mercy and Emancipation Ministry by the General Overseer, Rev Dr Malachi Ogakwu on the 27th of May, 2024">
+                Formal inauguration of the Unekwuojo Home of Mercy and Emancipation Ministry by the General Overseer,
+                Rev Dr Malachi Ogakwu on the 27th of May, 2024
+              </h5>
             </div>
           </div>
         </div>
@@ -125,6 +196,64 @@
     </div>
   </section>
 
+  <div class="modal fade" id="galleryLightbox" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-transparent border-0">
+        <button type="button" class="btn-close btn-close-white ms-auto me-2 mt-2" data-bs-dismiss="modal"></button>
+
+        <div class="modal-body text-center">
+          <img id="lightboxImage" src="" class="img-fluid rounded-3" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.querySelectorAll('.gallery-card[data-img]').forEach(card => {
+      card.addEventListener('click', () => {
+        const imgSrc = card.getAttribute('data-img');
+        const lightboxImg = document.getElementById('lightboxImage');
+        lightboxImg.src = imgSrc;
+      });
+    });
+  </script>
+
+
+  <script>
+    const filterButtons = document.querySelectorAll('.gallery-filters button');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+
+        // Update active button state
+        filterButtons.forEach(b => {
+          b.classList.remove('active', 'btn-custom');
+          b.classList.add('btn-outline-dark');
+        });
+
+        btn.classList.add('active', 'btn-custom');
+        btn.classList.remove('btn-outline-dark');
+
+        const filter = btn.dataset.filter;
+
+        galleryItems.forEach(item => {
+          const category = item.dataset.category;
+
+          if (filter === 'all' || category === filter) {
+            item.classList.remove('hidden');
+          } else {
+            item.classList.add('hidden');
+          }
+        });
+      });
+    });
+  </script>
+  <script>
+    document.querySelector('[data-filter="picture"]').click();
+  </script>
+
 </body>
+
 </html>
